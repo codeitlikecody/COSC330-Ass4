@@ -27,7 +27,7 @@ mandelbrotCUDA.o: mandelbrotCUDA.cu
 
 .PHONY: clean
 clean:
-	rm -f *~ *.o ${EXES}
+	rm -f *~ *.o *.bmp ${EXES}
 
 .PHONY: run
 run: ${APPTORUN}
